@@ -69,7 +69,7 @@ body {
 }
 
 .header-charakter {
-    background-image: url(/img/header-img.jpg);
+    background-image: url(./img/header-img.jpg);
     width: 100%;
     background-attachment: fixed !important;
 }
@@ -86,7 +86,7 @@ body {
 /* misje */
 
 .misje {
-    background-image: url(/img/The-Keeper.jpg);
+    background-image: url(./img/The-Keeper.jpg);
     width: 100%;
     height: 110vh !important;
 }
