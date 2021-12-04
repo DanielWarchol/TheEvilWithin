@@ -1,0 +1,122 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Staatliches', cursive !important;
+}
+
+/* Navbar sticky */
+
+.navbar.sticky {
+    background-color:rgba(255,255,255,0.7);
+    color: black;
+    transition: 1s;
+}
+
+/* Navbar */
+
+.navbar-toggler {
+    outline: none !important;
+    border: 0 !important;
+}
+
+.fa-bars {
+    color: black !important;
+    height: 30px !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 20px !important;
+}
+
+.nav-link:hover {
+    color: red !important;
+    transition: 0.5s;
+}
+
+
+/* header */
+
+.header {
+    background-color: black;
+    height: 130vh;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.header .text-red {
+    color: rgb(202, 1, 1);
+}
+
+/* header-charakter */
+
+.header-charakter {
+    height: auto !important;
+}
+
+.header-charakter {
+    background-image: url(/img/header-img.jpg);
+    width: 100%;
+    background-attachment: fixed !important;
+}
+
+.header-charakter img {
+    height: 300px !important;
+}
+
+.header-charakter h1 {
+    color: rgb(202, 1, 1) !important;
+    text-align: center !important;
+}
+
+/* misje */
+
+.misje {
+    background-image: url(/img/The-Keeper.jpg);
+    width: 100%;
+    height: 110vh !important;
+}
+
+.accordion {
+    text-align: center;
+}
+
+.accordion-button {     
+    background-color: transparent !important;
+    border: 1px solid rgb(202, 1, 1) !important;
+    padding: 10px 5px;
+    outline: none !important;
+    color: rgb(202, 1, 1) !important;
+}
+
+.accordion-body {
+    text-align: center !important;
+    color: white !important;
+    background-color:rgba(0,0,0,0.5);
+    border: 1px solid rgb(202, 1, 1) !important;
+}
+
+.text-red {
+    color: rgb(202, 1, 1) !important;
+}
+
+/* Zwiastun */
+
+.zwiastun {
+    background-color: black !important;
+    height: 100vh !important;
+}
